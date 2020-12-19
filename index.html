@@ -12,70 +12,111 @@
 </head>
 <body>
     <header>
-        <nav class="container-fluid">
-            <a class="logo">
-                <img src="images/logo.png" alt="logo">
-            </a>
-
-            <ul>
-               <a class="nav_items" href="#">Agence Web</a>
-               <a class="nav_items" href="#">Réalisation</a>
-               <a class="nav_items" href="#">Actualités</a>
-               <a class="nav_items" href="#">Contact</a>
+        <nav class="navbar fixed-top navbar-expand-lg">
+         <div class="container-fluid">
+            <a class="navbar-brand me-5 pe-5" href="#">
+                <img src="images/logo.png" alt="" width="90" height="100">
+              </a>
+              <button class="navbar-toggler navbar-dark btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             </ul>
+                <li class="nav-link dropdown ">
+                    <a class="nav-link dropdown-toggle text-white me-md-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Agence Web
+                    </a>
+                    <ul class="dropdown-menu fw-bold fs-5 lh-lg" aria-labelledby="navbarDropdown">
+                      <li>
+                          <a class="dropdown-item " href="#">
+                        Conseil en stratégie et en communication
+                         </a>
+                       </li>
+                      <li>
+                          <a class="dropdown-item" href="#">Création sites ecommerce</a>
+                      </li>
 
-            <button class="button">Devis Gratuit</button>
+                      <li>
+                          <a class="dropdown-item" href="#">Création site internet</a>
+                     </li>
+
+                    </ul>
+                  </li>
+               <a class="nav-link disabled me-md-5 text-white" href="#">Réalisation</a>
+               <a class="nav-link disabled me-md-5 text-white" href="#">Actualités</a>
+               <a class="nav_link active text-decoration-none me-md-5 text-white" href="#">Contact</a>
+               <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-success btn-lg me-md-2" type="button">Devis Gratuit</button>
+                </div>
+            </div>
+            </div>
         </nav>
 
-        <layout_page>
-            <h1>Agence Web Créative</h1>
-                 <button class="button">Contacter Nous</button>
-                    <div class="co_1">Création de sites internet à Tunis.</div>
-                    <div class="cs_1">Agence web à Cannes, nous sommes experts en création de site internet vitrine et ecommerce.</div>
-                       <div class="co_2">Webdesign & intégration.</div>
-                       <div class="cs_2">Avoir un beau site web c'est bien, mais c'est encore mieux quand il est ergonomique et orienté UX pour convertir vos visiteurs en clients.</div>
-                          <div class="co_3">Agence SEO à Cannes</div>
-                          <div class="cs_3">Voir progresser dans les résultats de recherche les beaux sites créés grâce au webmarketing et référencement naturel, c'est ce qui nous motive !</div>
-        </layount_page>
+        <layout_page class="lp container-fluid">
+            <h1>Agence Web <br>Créative</h1>
+                 <button type="button" class="btn btn-outline-success btn-lg">Contacter Nous</button>
+
+                 <div class="container pt-5">
+                     <div class="row">
+                    <div class=" col-sm text-white ps-5 pe-5 border" style="width: 200px; height: 280px; font-weight: 700; font-size: 24px; padding-top: 2%;background-color: #2BA837">Création de sites internet à Tunis.
+                       <p style="font-weight: 400; font-size: 17px; padding-top: 12%;">Agence web à Cannes, nous sommes experts en création de site internet vitrine et ecommerce.</p>
+                    </div>
+                                    
+                    <div class="col-sm bg-dark text-white ps-5 pe-5 border" style="width: 200px; height: 280px; font-weight: 700; font-size: 24px; padding-top: 2%;">Webdesign & intégration.
+                        <p style="font-weight: 400; font-size: 17px; padding-top: 12%;">Avoir un beau site web c'est bien, mais c'est encore mieux quand il est ergonomique et orienté UX pour convertir vos visiteurs en clients.</p>
+                     </div>
+
+                     <div class="col-sm bg-dark text-white ps-5 pe-5 border" style="width: 200px; height: 280px; font-weight: 700; font-size: 24px; padding-top: 2%;">Agence SEO à Tunis
+                        <p style="font-weight: 400; font-size: 17px; padding-top: 12%;">Voir progresser dans les résultats de recherche les beaux sites créés grâce au webmarketing et référencement naturel, c'est ce qui nous motive !</p>
+                     </div>
+
+                     </div>
+                    </div>
+
+        </layount_page class="lp">
+
     </header>
 
     <main1 class="container-fluid">
-        <h1>Services</h1>
-            <h2>CRÉATION DE SITE INTERNET ET WEBMARKETING À CANNES</h2>
+        <div style="font-weight: 700; font-size: 48px; color: black; padding-top: 10%; margin-left: 5%;">Services</div>
+            <div style="font-weight: 700; size: 17px ;color: #2ba837; margin-left: 5%;">CRÉATION DE SITE INTERNET ET WEBMARKETING À CANNES</div>
                
-            <div class="container">
+            <div class="container" style="padding-top: 5%;">
                 <div class="row">
-                  <div class="col-sm">
-                      <i class="icon"></i>
-                    Création Site internet
-                        <p class="main1-p">Des Beaux Sites internet en Wordpress,Prestashop ou meme en sur-mesure</p>
+
+                  <div class="col-sm text-white ps-5 pe-5" style="width: 200px; height: 280px; font-weight: 700; font-size: 24px; padding-top: 2%;background-color: #F3F3F3">
+                  <h2 style="color:black; font-weight: 700; font-size:20px;">Création Site internet</h2>
+                        <p style="font-weight: 400; font-size: 17px; padding-top: 12%; color: black;">Des Beaux Sites internet en Wordpress,Prestashop ou meme en sur-mesure</p>
                   </div>
-                  <div class="col-sm">
-                    <i class="icon"></i>
-                    UX Design
-                    <p class="main1-p">Des Beaux Sites internet en Wordpress,Prestashop ou meme en sur-mesure</p>
+
+                  <div class="col-sm text-white ps-5 pe-5" style="width: 200px; height: 280px; font-weight: 700; font-size: 24px; padding-top: 2%;background-color: white">
+                    <h2 style="color:black; font-weight: 700; font-size:20px;"> UX Design</h2>
+                    <p style="font-weight: 400; font-size: 17px; padding-top: 12%; color: black;">Des Beaux Sites internet en Wordpress,Prestashop ou meme en sur-mesure</p>
                   </div>
-                  <div class="col-sm">
-                    <i class="icon"></i>
-                    Référencement Naturel (SEO)
-                    <p class="main1-p">Des Beaux Sites internet en Wordpress,Prestashop ou meme en sur-mesure</p>
+
+                  <div class="col-sm text-white ps-5 pe-5" style="width: 200px; height: 280px; font-weight: 700; font-size: 24px; padding-top: 2%;background-color: #F3F3F3">
+                    <h2 style="color:black; font-weight: 700; font-size:20px;">Référencement Naturel (SEO)</h2>
+                    <p style="font-weight: 400; font-size: 17px; padding-top: 12%; color: black;">Des Beaux Sites internet en Wordpress,Prestashop ou meme en sur-mesure</p>
                   </div>
+
                 <div class="row">
-                  <div class="col-sm">
-                    <i class="icon"></i>
-                    Stratégie Digitale
-                    <p class="main1-p">Des Beaux Sites internet en Wordpress,Prestashop ou meme en sur-mesure</p>
+
+                  <div class="col-sm text-white ps-5 pe-5" style="width: 200px; height: 280px; font-weight: 700; font-size: 24px; padding-top: 2%;background-color: white">
+                    <h2 style="color:black; font-weight: 700; font-size:20px;">Stratégie Digitale</h2>
+                    <p style="font-weight: 400; font-size: 17px; padding-top: 12%; color: black;"">Des Beaux Sites internet en Wordpress,Prestashop ou meme en sur-mesure</p>
                   </div>
-                  <div class="col-sm">
-                    <i class="icon"></i>
-                    Hébergement Site Web
-                    <p class="main1-p">Des Beaux Sites internet en Wordpress,Prestashop ou meme en sur-mesure</p>
+
+                  <div class="col-sm text-white ps-5 pe-5" style="width: 200px; height: 280px; font-weight: 700; font-size: 24px; padding-top: 2%;background-color: #F3F3F3">
+                    <h2 style="color:black; font-weight: 700; font-size:20px;">Hébergement Site Web</h2>
+                    <p style="font-weight: 400; font-size: 17px; padding-top: 12%; color: black;">Des Beaux Sites internet en Wordpress,Prestashop ou meme en sur-mesure</p>
                   </div>
-                  <div class="col-sm">
-                    <i class="icon"></i>
-                    Email Marketing
-                    <p class="main1-p">Des Beaux Sites internet en Wordpress,Prestashop ou meme en sur-mesure</p>
+
+                  <div class="col-sm text-white ps-5 pe-5" style="width: 200px; height: 280px; font-weight: 700; font-size: 24px; padding-top: 2%;background-color: white">
+                    <h2 style="color:black; font-weight: 700; font-size:20px;">Email Marketing</h2>
+                    <p style="font-weight: 400; font-size: 17px; padding-top: 12%; color: black;">Des Beaux Sites internet en Wordpress,Prestashop ou meme en sur-mesure</p>
                   </div>
+
                 </div>
                 </div>
               </div>
@@ -83,10 +124,11 @@
     </main1>
 
     <main2>
-        <h1>On l'a fait...</h1>
-            <h2>...Ensemble</h2>
-                <button>Tout Voir</button>
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <button type="button" class="btn btn-outline-success btn-lg text-color-dark float-end" style="margin: 13% 3%;">Tout Voir</button>
+        <div style="font-weight: 700; font-size: 48px; color: black; padding-top: 10%; margin-left: 5%;">On l'a fait...</div>
+               <div style="font-weight: 700; size: 17px ;color: #2ba837; margin-left: 5%;">...Ensemble</div>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style=" margin: 0 5% 0 5%;">
                     <ol class="carousel-indicators">
                       <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
                       <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
@@ -117,34 +159,35 @@
     </main2>
 
     <main3>
-        <h1>A propos</h1>
-        <h2>NOUS N'AVONS (PRESQUE) AUCUN SECRET POUR VOUS !</h2>
-            <h3>Agence web à Cannes, Spinat optimise votre impact sur internet via la création de site internet efficace et optimisés pour le SEO. Naturellement à votre écoute, nous saurons vous conseiller et vous guider pour mieux vous représenter.</h3>
+        <div style="font-weight: 700; font-size: 48px; color: black; padding-top: 10%; margin-left: 5%;">A propos</div>
+        <div style="font-weight: 700; size: 17px ;color: #2ba837; margin-left: 5%;">NOUS N'AVONS (PRESQUE) AUCUN SECRET POUR VOUS !</div>
+            <div class="float-end" style="font-weight:400; font-size:16px; margin: -5% 8% 10% 55% ;">Agence web à Cannes, Spinat optimise votre impact sur internet via la création de site internet efficace et optimisés pour le SEO. Naturellement à votre écoute, nous saurons vous conseiller et vous guider pour mieux vous représenter.</div>
 
-            <div class="container">
+            <div class="container pt-5">
                 <div class="row">
-                  <div class="col-sm">
-                    Agence web tunis
-                        <p class="main3-p">Agence web experte WordPress à Cannes spécialisée dans la création de site internet orienté référencement naturel, Spinat est à votre service depuis 2009. Passionnée et professionnelle, notre équipe bâtit, avec vous, votre existence sur la Toile.</p>
-                  </div>
-                  <div class="col-sm">
-                    Notre philosophie
-                    <p class="main3-p">Entre innovation et expertise, nous repoussons toujours les limites afin de vous offrir le meilleur de nous-même pour l’élaboration et l’aboutissement de votre projet. Nous nous positionnement comme votre partenaire digital et travaillons avec et pour votre succès.</p>
-                  </div>
-                  <div class="col-sm">
-                    Méthodologie
-                    <p class="main3-p">Nous étudions au cas par cas votre besoin pour offrir une communication sur mesure, quel que soit le support. Nous conseillons les meilleures technologies en adéquation avec vos objectifs toujours dans un but de performance et de retour sur investissement.</p>
-                  </div>
+
+                <div class="col-sm  ps-5 pe-5 border" style="width: 200px; height: 300px; font-weight: 700; font-size: 24px; padding-top: 2%;">Agence web Cannes
+                   <p style="font-weight: 400; font-size: 17px; padding-top: 12%;">Agence web experte WordPress à Cannes spécialisée dans la création de site internet orienté référencement naturel, Spinat est à votre service depuis 2009. Passionnée et professionnelle, notre équipe bâtit, avec vous, votre existence sur la Toile.</p>
                 </div>
-            </div>
+
+                <div class="col-sm  ps-5 pe-5 border" style="width: 200px; height: 300px; font-weight: 700; font-size: 24px; padding-top: 2%;">Agence web Cannes
+                    <p style="font-weight: 400; font-size: 17px; padding-top: 12%;">Agence web experte WordPress à Cannes spécialisée dans la création de site internet orienté référencement naturel, Spinat est à votre service depuis 2009. Passionnée et professionnelle, notre équipe bâtit, avec vous, votre existence sur la Toile.</p>
+                 </div>
+
+                 <div class="col-sm ps-5 pe-5 border" style="width: 200px; height: 300px; font-weight: 700; font-size: 24px; padding-top: 2%;">Agence web Cannes
+                    <p style="font-weight: 400; font-size: 17px; padding-top: 12%;">Agence web experte WordPress à Cannes spécialisée dans la création de site internet orienté référencement naturel, Spinat est à votre service depuis 2009. Passionnée et professionnelle, notre équipe bâtit, avec vous, votre existence sur la Toile.</p>
+                 </div>
+
+                 </div>
+                 </div>
     </main3>
 
     <main4>
-        <a class="img">
-            <img src="#" alt="img">
+        <a class="img-fluid img-thumbnail">
+            <img  src="images/ph.jpg" alt="img" style="margin:15% 0 0 6%; height: 570px; width: 500px;">
         </a>
-            <h1>#ASKIP</h1>
-                <h1>Ce qui se dit sur nous.</h1>
+            <div style="font-weight: 900; font-size: 48px; color: black; margin: -30% 8% 10% 55%;">#ASKIP</div>
+            <div style="font-weight: 900; font-size: 48px; color: black; margin: -30% 8% 10% 55%;">Ce qui se dit sur nous.</div>
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
@@ -179,6 +222,8 @@
                     <i class="icon"></i>
                     <i class="icon"></i>
     </main4>
+
+     <!----
 
     <main5>
         <h1>L'actualité Webmarketing</h1>
@@ -267,7 +312,7 @@
             </div>
           </div>
     </main6>
-
+--> 
     <footer1>
         <i class="icon"></i>
         <i class="icon"></i>
@@ -275,6 +320,8 @@
         <h1>On En Parle</h1>
 
         <button>Contacter Nous</button>
+    </footer1>
+
     <footer2>
         <h4>2020 © Agence web Tunis Spinat</h4>
         <h4>Tous droits réservés</h4>
@@ -282,5 +329,6 @@
             <a class="">Mentions légales & Politique de confidentialité</a>
             <a class="">Plan du site</a>
     </footer2>
+   
 </body>
 </html>

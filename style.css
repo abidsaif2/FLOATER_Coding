@@ -1,3 +1,33 @@
-nav{
-    
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
 }
+
+nav{
+    background-color: #393E46;
+    font-weight: 700;
+    font-size: 16px;
+    padding-right: 5%;
+}
+
+.lp > h1{
+    padding-top: 10%;
+    margin-left: 5%;
+    font-size: 78px;
+    font-weight: 800;
+    line-height: 80px;
+}
+
+.lp > button{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+
+
+
+
+
