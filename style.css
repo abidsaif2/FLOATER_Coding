@@ -26,6 +26,9 @@ nav{
     margin-left: 5%;
 }
 
+nav:hover{
+    background-color: goldenrod;
+}
 
 
 
